@@ -1,6 +1,10 @@
 using Domain;
 using Aplication;
-
+using Infrastructure;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace ZooPark;
 
@@ -11,12 +15,12 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+  
         builder.Services.AddAuthorization();
-
+        
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
         
-        builder.Services.AddSingleton<Zoo>();
         builder.Services.AddScoped<IManagementService, ManagementService>();
 
         var app = builder.Build();

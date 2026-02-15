@@ -9,15 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf67d2a-693a-4ca3-b301-91d6eb397a96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Aplication/Interfaces/IAppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplication/Interfaces/IManagementService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/EntiyFramework/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplication/IManagementService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplication/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/ManagementService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/DTOs/AddAnimalDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Controler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/Aplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/Aplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/EntityFramework.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fc93f9613ce5192d12612ee1e55980988597b5d7aef66f40dd4b6898437a19/WebApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aplication/Interfaces/IAppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aplication/ManagementService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DAL/EntityFramework.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/EntiyFramework/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -121,7 +122,7 @@
       <workItem from="1771172920941" duration="2390000" />
       <workItem from="1771176442521" duration="1540000" />
       <workItem from="1771179295170" duration="6755000" />
-      <workItem from="1771186483129" duration="3933000" />
+      <workItem from="1771186483129" duration="7096000" />
     </task>
     <task id="LOCAL-00001" summary="change Domain">
       <option name="closed" value="true" />
@@ -131,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771180277021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mb finished Aplication">
+      <option name="closed" value="true" />
+      <created>1771190795519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771190795521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="change Domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Domain" />
+    <MESSAGE value="Mb finished Aplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mb finished Aplication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
