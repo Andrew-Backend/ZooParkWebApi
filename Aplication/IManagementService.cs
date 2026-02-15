@@ -4,6 +4,6 @@ namespace Aplication;
 
 public interface IManagementService
 {
-    void AddAnimal(string name,TypeAnimal type, int age);
+    void AddAnimal(string name,TypeAnimalEnum type, int age);
     void RemoveAnimal(string name);
 }

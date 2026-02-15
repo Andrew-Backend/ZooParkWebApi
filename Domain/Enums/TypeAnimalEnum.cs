@@ -1,6 +1,6 @@
 namespace Domain;
 
-public enum TypeAnimal
+public enum TypeAnimalEnum
 {
     Mammal = 1,
     Amphibian,

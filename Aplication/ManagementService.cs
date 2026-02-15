@@ -11,7 +11,7 @@ public class ManagementService : IManagementService
         this.zoo = zoo;
     }
     
-    public void AddAnimal(string name, TypeAnimal type, int age)
+    public void AddAnimal(string name, TypeAnimalEnum type, int age)
     {
         Animal animal = new Animal(name, type, age);
         if (age < 0)
@@ -24,7 +24,7 @@ public class ManagementService : IManagementService
 
     public void RemoveAnimal(string name)
     {
-        if (zoo.animals != null && zoo.animals.Count > 0)
+        if (zoo.Animals != null && zoo.Animals.Count > 0)
             zoo.DestroyAnimal(name);
         
     }

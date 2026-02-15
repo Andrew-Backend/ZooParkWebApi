@@ -6,24 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf67d2a-693a-4ca3-b301-91d6eb397a96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplication/IManagementService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aplication/ManagementService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/EntityFramework.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Animal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/TypeAnimal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Zoo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooPark.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooPark.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Controler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/Aplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/Aplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/IManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/IManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/ManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/EntityFramework.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/EntityFramework.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/TypeAnimal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Enums/TypeAnimalEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Controler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +44,13 @@
     <setting file="file://$PROJECT_DIR$/Domain/Zoo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="39a15dF3Gn7G9XP8eZa3Uq7KICD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,18 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ZooPark: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ZooPark: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ZooPark: http">
     <configuration name="ZooPark: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ZooPark.csproj" />
@@ -116,13 +114,28 @@
       <option name="presentableId" value="Default" />
       <updated>1770919187060</updated>
       <workItem from="1770919188804" duration="17655000" />
+      <workItem from="1771172920941" duration="2390000" />
+      <workItem from="1771176442521" duration="1540000" />
+      <workItem from="1771179295170" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
