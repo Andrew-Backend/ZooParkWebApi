@@ -17,9 +17,9 @@ public class AnimalsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Add(AddAnimalRequest request)
+    public IActionResult Add(AddAnimalDto dto)
     {
-        _service.AddAnimal(request.Name, request.TypeAnimalEnum , request.Age);
+        _service.Add(dto.Name, dto.TypeAnimalEnum , dto.Age);
         return Ok();
     }
 }

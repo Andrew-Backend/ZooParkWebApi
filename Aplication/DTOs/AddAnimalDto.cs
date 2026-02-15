@@ -2,7 +2,7 @@ using Domain;
 
 namespace ZooPark.DTO;
 
-public class AddAnimalRequest
+public class AddAnimalDto
 {
     public string Name { get; set; }
     public TypeAnimalEnum TypeAnimalEnum { get; set; }

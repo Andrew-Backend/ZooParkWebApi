@@ -1,32 +1,37 @@
+using System.Data.Entity;
 using Domain;
 
 namespace Aplication;
 
 public class ManagementService : IManagementService
 {
-    private readonly Zoo zoo;
+    private readonly IAppDbContext _zoo;
     
-    public ManagementService(Zoo zoo)
+    public ManagementService(IAppDbContext zoo)
     {
-        this.zoo = zoo;
+        _zoo = zoo;
     }
     
-    public void AddAnimal(string name, TypeAnimalEnum type, int age)
+    public async Task AddAnimal(Animal animal)
     {
-        Animal animal = new Animal(name, type, age);
-        if (age < 0)
+        
+        if (animal.Age < 0)
         {
             throw new InvalidOperationException("Age cannot be negative!");
         }else{
-            zoo.AddAnimal(animal);
+            _zoo.Animals.Add(animal);
+            await _zoo.SaveChanges();
         }
     }
 
-    public void RemoveAnimal(string name)
+    public async Task RemoveAnimal(int  id)
     {
-        if (zoo.Animals != null && zoo.Animals.Count > 0)
-            zoo.DestroyAnimal(name);
-        
+        var animal = await _zoo.Animals.FindAsync(id);
+        _zoo.Animals.Remove(animal);
     }
-    
+
+    public async Task<List<Animal>> GetAllAnimals()
+    {
+        return await _zoo.Animals.ToListAsync();
+    }
 }

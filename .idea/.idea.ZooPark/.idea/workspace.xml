@@ -4,21 +4,19 @@
     <projectFile profileName="http">ZooPark.csproj</projectFile>
     <projectFile profileName="https">ZooPark.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf67d2a-693a-4ca3-b301-91d6eb397a96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aplication/Interfaces/IAppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aplication/Interfaces/IManagementService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplication/Aplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/Aplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplication/IManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/IManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/IManagementService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Aplication/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/ManagementService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/EntityFramework.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/EntityFramework.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/TypeAnimal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Enums/TypeAnimalEnum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/AddAnimalRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/DTOs/AddAnimalDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Controler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +33,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/83674fee86c8a2af5f9fc3ddee3f772b47b07f6719f94ed85563653cdb109073/WebApplication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fc93f9613ce5192d12612ee1e55980988597b5d7aef66f40dd4b6898437a19/WebApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Aplication/IManagementService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aplication/Interfaces/IAppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aplication/ManagementService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL/EntityFramework.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DTO/AddAnimalRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Domain/Animal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Domain/TypeAnimal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Domain/Zoo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -59,19 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.ZooPark: http.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.ZooPark: http.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ZooPark: http">
     <configuration name="ZooPark: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ZooPark.csproj" />
@@ -116,8 +120,18 @@
       <workItem from="1770919188804" duration="17655000" />
       <workItem from="1771172920941" duration="2390000" />
       <workItem from="1771176442521" duration="1540000" />
-      <workItem from="1771179295170" duration="848000" />
+      <workItem from="1771179295170" duration="6755000" />
+      <workItem from="1771186483129" duration="3933000" />
     </task>
+    <task id="LOCAL-00001" summary="change Domain">
+      <option name="closed" value="true" />
+      <created>1771180277021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771180277021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="change Domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Domain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
