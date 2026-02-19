@@ -1,12 +1,12 @@
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using Domain;
 
-namespace Aplication;
+namespace Application;
 
 public interface IAppDbContext
 {   
     DbSet<Zoo>  Zoo { get; set; }
     DbSet<Animal>  Animals { get; set; }
-    Task<int> SaveChanges();
+    Task<int> SaveChangesAcync();
     
 }

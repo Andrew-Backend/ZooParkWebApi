@@ -1,6 +1,6 @@
 using Domain;
 
-namespace Aplication;
+namespace Application;
 
 public interface IManagementService
 {

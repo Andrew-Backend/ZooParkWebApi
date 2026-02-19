@@ -1,5 +1,5 @@
 using Domain;
-using Aplication;
+using Application;
 using Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;

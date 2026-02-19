@@ -9,16 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf67d2a-693a-4ca3-b301-91d6eb397a96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Infrastructure/EntiyFramework/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplication/Aplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aplication/Aplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/EntityFramework.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/Aplication.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/DTOs/AddAnimalDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/AddAnimalDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/Interfaces/IAppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IAppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/Interfaces/IManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplication/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ManagementService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/EntiyFramework/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/EntityFramework/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/SeedAnimal.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Controler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.ZooPark: http.executor": "Run",
+    ".NET Launch Settings Profile.ZooPark: http.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,6 +78,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -122,7 +127,8 @@
       <workItem from="1771172920941" duration="2390000" />
       <workItem from="1771176442521" duration="1540000" />
       <workItem from="1771179295170" duration="6755000" />
-      <workItem from="1771186483129" duration="7096000" />
+      <workItem from="1771186483129" duration="8243000" />
+      <workItem from="1771528330107" duration="5229000" />
     </task>
     <task id="LOCAL-00001" summary="change Domain">
       <option name="closed" value="true" />
@@ -140,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771190795521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added conection to db string">
+      <option name="closed" value="true" />
+      <created>1771193833527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771193833527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +177,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="change Domain" />
     <MESSAGE value="Mb finished Aplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mb finished Aplication" />
+    <MESSAGE value="Added conection to db string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added conection to db string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
