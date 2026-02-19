@@ -1,5 +1,8 @@
-using System.Data.Entity;
+using System;
+using System.Collections.Generic;
 using Domain;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application;
 
@@ -20,7 +23,7 @@ public class ManagementService : IManagementService
             throw new InvalidOperationException("Age cannot be negative!");
         }else{
             _zoo.Animals.Add(animal);
-            await _zoo.SaveChangesAcync();
+            await _zoo.SaveChangesAsync();
         }
     }
 
@@ -28,7 +31,7 @@ public class ManagementService : IManagementService
     {
         var animal = await _zoo.Animals.FindAsync(id);
         _zoo.Animals.Remove(animal);
-        await _zoo.SaveChangesAcync();
+        await _zoo.SaveChangesAsync();
     }
 
     public async Task<List<Animal>> GetAllAnimals()

@@ -9,11 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf67d2a-693a-4ca3-b301-91d6eb397a96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Extensions/EntityFrameworkExtention.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interfaces/IAppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IAppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interfaces/IManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/EntityFramework/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/EntityFramework/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherForecast.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Extensions/EntityFrameworkExtention.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Extensions/EntityFrameworkExtention.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ZooPark: http.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ZooPark: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ZooPark: http">
     <configuration name="ZooPark: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ZooPark.csproj" />
@@ -116,7 +124,10 @@
       <workItem from="1771176442521" duration="1540000" />
       <workItem from="1771179295170" duration="6755000" />
       <workItem from="1771186483129" duration="8243000" />
-      <workItem from="1771528330107" duration="8169000" />
+      <workItem from="1771528330107" duration="9246000" />
+      <workItem from="1771537746389" duration="3903000" />
+      <workItem from="1771541801298" duration="1087000" />
+      <workItem from="1771542933893" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="change Domain">
       <option name="closed" value="true" />
@@ -158,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771534779072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added class EntityFrameworkExtension">
+      <option name="closed" value="true" />
+      <created>1771536645442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771536645442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +203,8 @@
     <MESSAGE value="Added conection to db string" />
     <MESSAGE value="Вроде доделал AppDbContext" />
     <MESSAGE value="I hope i finished AnimalsController" />
-    <option name="LAST_COMMIT_MESSAGE" value="I hope i finished AnimalsController" />
+    <MESSAGE value="Added class EntityFrameworkExtension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class EntityFrameworkExtension" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
