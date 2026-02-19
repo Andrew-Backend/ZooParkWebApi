@@ -1,10 +1,12 @@
 using Domain;
 using Application;
-using Infrastructure;
+using ZooPark.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using System.Globalization;
+
 
 namespace ZooPark;
 
@@ -16,6 +18,9 @@ public class Program
 
         // Add services to the container.
   
+        builder.Services.AddEntityFramework(builder.Configuration);
+
+        
         builder.Services.AddAuthorization();
         
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
