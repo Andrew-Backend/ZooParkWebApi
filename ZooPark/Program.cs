@@ -1,4 +1,5 @@
 using Application;
+using ZooPark.Infrastructure.EntityFramework;
 using ZooPark.Test.Extensions;
 
 namespace ZooPark;
@@ -13,16 +14,20 @@ public class Program
   
         builder.Services.AddEntityFramework(builder.Configuration);
 
+        builder.Services.AddScoped<IAppDbContext>(provider => 
+            provider.GetRequiredService<AppDbContext>());
         
         builder.Services.AddAuthorization();
         
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-        builder.Services.AddControllers();
+       
         
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
         builder.Services.AddScoped<IManagementService, ManagementService>();
+        
+        builder.Services.AddControllers();
 
         var app = builder.Build();
 

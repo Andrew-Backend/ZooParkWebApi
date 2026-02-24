@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Application;
 using ZooPark.Infrastructure.EntityFramework;
+
 
 
 namespace ZooPark.Test.Extensions;
@@ -13,5 +15,7 @@ public static class EntityFrameworkExtension
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlite(configuration.GetConnectionString("DefaultConnection"))
         );
+        
+        services.AddScoped<IAppDbContext, AppDbContext>();
     }
 }
