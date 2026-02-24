@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooPark", "ZooPark.csproj", "{3C258908-72F8-429E-9BF2-6E307F77F3FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooPark", "ZooPark\ZooPark.csproj", "{0E069B38-1D86-4F00-B86D-9C07B9ADEC5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AA82B77B-EE56-4409-8303-C384130D3B28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{1DBE3363-4150-4199-9B82-A63DAF0FC7A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{76CEA3C4-3C4F-4570-8CCE-EDAD4A3DB113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{95F56BA4-F02E-4B3C-BD3B-49F8BB4F305F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{E57315E5-B21E-46E1-A334-5D2F1A072D56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4FD7C932-6479-469D-B642-B08071458610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C258908-72F8-429E-9BF2-6E307F77F3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C258908-72F8-429E-9BF2-6E307F77F3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C258908-72F8-429E-9BF2-6E307F77F3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C258908-72F8-429E-9BF2-6E307F77F3FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA82B77B-EE56-4409-8303-C384130D3B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA82B77B-EE56-4409-8303-C384130D3B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA82B77B-EE56-4409-8303-C384130D3B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA82B77B-EE56-4409-8303-C384130D3B28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76CEA3C4-3C4F-4570-8CCE-EDAD4A3DB113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76CEA3C4-3C4F-4570-8CCE-EDAD4A3DB113}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76CEA3C4-3C4F-4570-8CCE-EDAD4A3DB113}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76CEA3C4-3C4F-4570-8CCE-EDAD4A3DB113}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E57315E5-B21E-46E1-A334-5D2F1A072D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E57315E5-B21E-46E1-A334-5D2F1A072D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E57315E5-B21E-46E1-A334-5D2F1A072D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E57315E5-B21E-46E1-A334-5D2F1A072D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E069B38-1D86-4F00-B86D-9C07B9ADEC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E069B38-1D86-4F00-B86D-9C07B9ADEC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E069B38-1D86-4F00-B86D-9C07B9ADEC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E069B38-1D86-4F00-B86D-9C07B9ADEC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBE3363-4150-4199-9B82-A63DAF0FC7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBE3363-4150-4199-9B82-A63DAF0FC7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBE3363-4150-4199-9B82-A63DAF0FC7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBE3363-4150-4199-9B82-A63DAF0FC7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F56BA4-F02E-4B3C-BD3B-49F8BB4F305F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F56BA4-F02E-4B3C-BD3B-49F8BB4F305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F56BA4-F02E-4B3C-BD3B-49F8BB4F305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F56BA4-F02E-4B3C-BD3B-49F8BB4F305F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD7C932-6479-469D-B642-B08071458610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD7C932-6479-469D-B642-B08071458610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD7C932-6479-469D-B642-B08071458610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD7C932-6479-469D-B642-B08071458610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
