@@ -25,7 +25,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
-        builder.Services.AddScoped<IManagementService, ManagementService>();
+        builder.Services.AddScoped<IManagementService, AnimalManagementService>();
         
         builder.Services.AddControllers();
 

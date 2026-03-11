@@ -12,15 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80a84a6-142e-43eb-a902-7d02b92fbb3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Configurations/AnimalConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Zoo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/DTOs/AddAnimalDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/AddAnimalDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interfaces/IManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/AnimalManagementService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZooPark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZooPark/ZooPark.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/ZooPark.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZooPark/test/Extensions/EntityFrameworkExtention.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/test/Extensions/EntityFrameworkExtention.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/test/Controler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ZooPark: IIS Express.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ZooPark: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SpellingScopeSettingsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ZooPark: IIS Express">
     <configuration name="ZooPark: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ZooPark/ZooPark.csproj" />
@@ -132,6 +130,8 @@
       <updated>1771948594330</updated>
       <workItem from="1771948595543" duration="705000" />
       <workItem from="1771949325292" duration="1090000" />
+      <workItem from="1773218445388" duration="728000" />
+      <workItem from="1773219205614" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="Changed on .net8">
       <option name="closed" value="true" />
@@ -191,5 +191,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

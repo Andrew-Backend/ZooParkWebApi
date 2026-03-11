@@ -21,7 +21,6 @@ public class AnimalsController : ControllerBase
     public IActionResult Add([FromBody] AddAnimalDto dto)
     {
         Animal animal = new Animal();
-        animal.AnimalId = dto.AnimalId;
         animal.Name = dto.Name;
         animal.TypeAnimal = dto.TypeAnimal;
         animal.Age = dto.Age;
