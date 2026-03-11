@@ -4,9 +4,9 @@ using Domain;
 
 namespace Application;
 
-public interface IManagementService <T>
+public interface IAnimalManagementService
 {
-    Task Add(T entity);
+    Task Add(Animal animal);
     Task Remove(int id);
-    Task<List<T>> GetAll();
+    Task<List<Animal>> GetAll();
 }

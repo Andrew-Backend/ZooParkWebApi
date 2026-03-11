@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application;
 
-public class AnimalManagementService : IManagementService <Animal>
+public class AnimalManagementService : IAnimalManagementService
 {
     private readonly IAppDbContext _zoo;
     
