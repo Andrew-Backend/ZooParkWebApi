@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application;
 
-public class ZooAnimalManagementService : IZooManagementService
+public class ZooManagementService : IZooManagementService
 {
     private readonly IAppDbContext _dbContext;
-    public ZooAnimalManagementService(IAppDbContext dbContext)
+    public ZooManagementService(IAppDbContext dbContext)
     {
         _dbContext = dbContext;
     }

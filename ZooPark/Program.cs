@@ -26,6 +26,7 @@ public class Program
         builder.Services.AddSwaggerGen();
         
         builder.Services.AddScoped<IAnimalManagementService, AnimalManagementService>();
+        builder.Services.AddScoped<IZooManagementService, ZooManagementService>();        
         
         builder.Services.AddControllers();
 
