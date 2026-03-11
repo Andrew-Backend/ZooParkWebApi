@@ -33,8 +33,8 @@ public class AnimalManagementService : IAnimalManagementService
         await _zoo.SaveChangesAsync();
     }
 
-    public async Task<List<Animal>> GetAll()
+    public async Task<List<Animal>> GetAll(int ZooId)
     {
-        return await _zoo.Animals.ToListAsync();
+        return await _zoo.Animals.Where(a => a.ZooId == ZooId).ToListAsync();
     }
 }
