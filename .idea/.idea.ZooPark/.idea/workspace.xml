@@ -12,8 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80a84a6-142e-43eb-a902-7d02b92fbb3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Services/ZooManagementService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/AnimalManagementService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/AnimalManagementService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZooPark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/DTOs/AnimalDTOs/AddAnimalDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/AnimalDTOs/AnimalDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/DTOs/AnimalDTOs/GetAllAnimalDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/AnimalDTOs/GetAllAnimalDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/EntityFramework/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/EntityFramework/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZooPark/test/Controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZooPark/test/Controlers/AnimalsControler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Application/Services/ZooManagementService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/DTOs/ZooDTOs/GetAllZoosDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/Interfaces/services/IZooManagementService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Infrastructure/Configurations/AnimalConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -126,7 +132,7 @@
       <workItem from="1771948595543" duration="705000" />
       <workItem from="1771949325292" duration="1090000" />
       <workItem from="1773218445388" duration="728000" />
-      <workItem from="1773219205614" duration="3104000" />
+      <workItem from="1773219205614" duration="7594000" />
     </task>
     <task id="LOCAL-00001" summary="Changed on .net8">
       <option name="closed" value="true" />
@@ -152,7 +158,39 @@
       <option name="project" value="LOCAL" />
       <updated>1773221377964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added ZooManagementService.cs">
+      <option name="closed" value="true" />
+      <created>1773222349876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773222349876</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed servise interface">
+      <option name="closed" value="true" />
+      <created>1773224236897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773224236897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed animal services">
+      <option name="closed" value="true" />
+      <created>1773224950281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773224950281</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added DTOs;&#10;Changed Zoo.cs">
+      <option name="closed" value="true" />
+      <created>1773225428034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773225428034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +214,11 @@
     <MESSAGE value="Changed on .net8" />
     <MESSAGE value="changed on .net8" />
     <MESSAGE value="Added AnimalManagementService.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added AnimalManagementService.cs" />
+    <MESSAGE value="Added ZooManagementService.cs" />
+    <MESSAGE value="changed servise interface" />
+    <MESSAGE value="changed animal services" />
+    <MESSAGE value="Added DTOs;&#10;Changed Zoo.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DTOs;&#10;Changed Zoo.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

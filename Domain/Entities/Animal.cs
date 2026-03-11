@@ -8,6 +8,5 @@ public class Animal
     public int Age { get; set; }
     
     public int ZooId { get; set; }
-    
     public Zoo Zoo { get; set; }
 }
